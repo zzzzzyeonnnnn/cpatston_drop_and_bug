@@ -17,7 +17,7 @@ def getPrediction(filename):
 
 
     #load model
-    my_model=load_model("models/mobile_3.h5")
+    my_model=load_model("models/mobileV2_3.h5")
 
     SIZE = 224 #크기 정의
     img_path = 'static/images/' + filename #이미지 경우, 사용자가 업로드 하는 경로
