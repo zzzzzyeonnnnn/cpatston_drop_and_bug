@@ -6,7 +6,8 @@ from tensorflow.keras.applications import resnet50
 
 def getPrediction(filename):
     #클래스 레이블 정의
-    classes = ['Bemisia tabaci', 'Sclerotinia minor', 'Bremia lactucae', 'Myzus persicae']
+    classes = ['담배가루이','상추균핵병','상추노균병','복숭아혹진딧물']
+    #classes = ['Bemisia tabaci', 'Sclerotinia minor', 'Bremia lactucae', 'Myzus persicae']
     num_classes = len(classes)
 
     idx=0
